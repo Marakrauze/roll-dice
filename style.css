@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(47, 30, 88) , rgb(19, 99, 119));
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#diceOne, #diceTwo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 20px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px; 
+}
